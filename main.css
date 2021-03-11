@@ -30,14 +30,14 @@ svg {
 	padding: 20px;
 	box-sizing: border-box;
 	width: 400px;
-	height: 600px;
+	height: 500px;
 	box-shadow: 0 0 32px 10px #ccc;
-	left: 50px;
+	left: 20px;
 	bottom: calc(50% - 200px);
 	font-family: sans-serif;
 }
 
 .description img {
-	width: 300px;
-	margin-bottom: 20px;
+	width: 450px;
+	margin-bottom: 25px;
 }
