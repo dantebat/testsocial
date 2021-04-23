@@ -1,10 +1,90 @@
 body {margin: 0; padding: 0;}
 
+article {
+
+	margin: auto;
+	width: 1300px;
+	min-width: 350px;
+	line-height: 78px;
+	
+}
+.navbar {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 1300px;
+	min-width: 350px;
+	line-height: 78px;
+	background-color: #e4e4e4
+	
+}
+
+.site-menu {
+	margin: 0;
+	display: flex;
+	list-style: none;
+	margin: 0 30px 0 0;
+	border-color: #006ba1;
+
+}
+
+ul {
+	padding: 0;
+	margin: 0 auto;
+
+}
+
+ul li: {
+	margin-right: 7px;
+	padding-top: 11px;
+}
+
+.site-menu li {
+	align-items: center;
+	margin: 0 15px;
+}
+
+.site-menu a {
+	font-family: "Open Sans", serif;
+	font-weight: 700;
+	margin: 0 15px;
+	font-size: 14px; 
+	text-transform: uppercase;
+	color: #006ba1;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: #ffffff;
+}
+
+.main_h {
+	margin: auto;
+	text-align: center
+}
+
+.base_text {
+	line-height: 25px;
+	text-indent: 20px;
+	font-size: 20px;
+}
 .map {
 	position: relative;
 	text-align: center;
 }
 
+.solo_pic {
+	width: 100%;
+
+}
+
+.base_list {
+
+line-height: 25px;
+text-indent: 20px;
+font-size: 20px;	
+
+}
 svg {
 	position: absolute;
 	top: 0;
@@ -19,7 +99,7 @@ svg {
 
 .part:hover {
 	transition: opacity .2s ease;
-	opacity: .5;
+	opacity: 0.3;
 	cursor: pointer;
 }
 
